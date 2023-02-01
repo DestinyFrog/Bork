@@ -1,0 +1,11 @@
+{
+  "compilerOptions": 
+  {
+    "module": "ES2015",
+    "target": "ES2017",
+    "outDir": "../src/",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "esModuleInterop": false,
+  }
+}
