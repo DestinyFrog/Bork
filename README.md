@@ -3,7 +3,7 @@ This is a mini-project
 it works like a "Game FrameWork"
 And i called it BÖRK ( Dog Song in Swedish, or something like that )
 
-== Sorry, i am not so good with documentations
+Sorry, i am not so good with documentations
 - Actually, i am not so good with english ( idk, whatever )
 
 ## Info

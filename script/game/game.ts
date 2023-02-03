@@ -1,7 +1,6 @@
-import { Scene } from "../engine/scene.js";
-import { background, player } from "./entities.js";
+import { gameObject, Scene } from "../engine/scene.js";
 
-// ! Necessary Parameters
+// ! Basic Settings
 export const WIDTH  :number = 450;
 export const HEIGHT :number = 450;
 export const FPS    :number =   4;
@@ -9,9 +8,11 @@ export const FPS    :number =   4;
 // ! Set Main Scene
 export const MainScene:Scene = new Scene( [
     // todo: Add GameObjects to MainScene on Scene Start
-    background,
-    player
 ] );
 
-// ? optional Parameters
-export const MID:Function = () => { return { x: WIDTH/2,y: HEIGHT/2 } };
+MainScene.press = {
+    [38]: () => { console.log( 'up' );    } ,
+    [40]: () => { console.log( 'down' );  } ,
+    [37]: () => { console.log( 'left' );  } ,
+    [39]: () => { console.log( 'right' ); }
+}
